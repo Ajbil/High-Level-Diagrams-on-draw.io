@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="RxG0eO6UkBBKH0Q4oEK4">
-    <mxGraphModel dx="2052" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2052" dy="1325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -137,6 +137,51 @@
         <mxCell id="PCgyEq0fViq9QOyIJcGH-36" connectable="0" parent="PCgyEq0fViq9QOyIJcGH-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;for user following many acc&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2928" as="geometry">
             <mxPoint x="34" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCgyEq0fViq9QOyIJcGH-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=20;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;POST create queue&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="565" y="-157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PCgyEq0fViq9QOyIJcGH-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" value="" vertex="1">
+          <mxGeometry height="115" width="210" x="730" y="-177.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PCgyEq0fViq9QOyIJcGH-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="-167.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PCgyEq0fViq9QOyIJcGH-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="775" y="-147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PCgyEq0fViq9QOyIJcGH-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" value="Async Feed Workers" vertex="1">
+          <mxGeometry height="60" width="120" x="790" y="-127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PCgyEq0fViq9QOyIJcGH-44" edge="1" parent="1" source="PCgyEq0fViq9QOyIJcGH-3" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="PCgyEq0fViq9QOyIJcGH-37" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="440" as="sourcePoint" />
+            <mxPoint x="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCgyEq0fViq9QOyIJcGH-46" edge="1" parent="1" source="PCgyEq0fViq9QOyIJcGH-41" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;exitX=-0.013;exitY=0.596;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="PCgyEq0fViq9QOyIJcGH-37" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="640" y="-170" as="sourcePoint" />
+            <mxPoint x="740" y="-170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCgyEq0fViq9QOyIJcGH-48" edge="1" parent="1" source="PCgyEq0fViq9QOyIJcGH-15" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" target="PCgyEq0fViq9QOyIJcGH-41" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="700" y="10" as="sourcePoint" />
+            <mxPoint x="800" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCgyEq0fViq9QOyIJcGH-49" edge="1" parent="1" source="PCgyEq0fViq9QOyIJcGH-41" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;exitX=1.002;exitY=0.585;exitDx=0;exitDy=0;curved=1;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="PCgyEq0fViq9QOyIJcGH-32" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="-110" />
+              <mxPoint x="1230" y="595" />
+            </Array>
+            <mxPoint x="1190" y="-157.5" as="sourcePoint" />
+            <mxPoint x="1310" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
